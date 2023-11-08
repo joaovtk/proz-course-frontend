@@ -2,44 +2,108 @@
     <head> <!-- Cabeçalho do documento -->
         <title>My first Page</title>
         <meta charset="UTF-8" />
+        <style>
+            table, td, th {
+                border: 1px solid #000;
+            }
+            
+            
+        </style>
     </head>
 
     <body> <!-- Corpo da página  -->
-        <h1>Um exemplo de título</h1>
-        <h2>Um exemplo de título</h2>
-        <h3>Um exemplo de título</h3>
-        <h4>Um exemplo de título</h4>
-        <h5>Um exemplo de título</h5>
-        <h6>Um exemplo de título</h6>
-        <p>
-            Olá, eu sou o vitor<br/>
-            e eu amo a linguagem c
-        </p>
-        <p>
-            e também eu gosto de jogar no pc
-        </p>
+        <div>
+            <h1>Um exemplo de título</h1>
+            <h2>Um exemplo de título</h2>
+            <h3>Um exemplo de título</h3>
+            <h4>Um exemplo de título</h4>
+            <h5>Um exemplo de título</h5>
+            <h6>Um exemplo de título</h6>
+        </div>
+        <div>
+            <p>
+                Olá, eu sou o vitor<br/>
+                e eu amo a linguagem c
+            </p>
+            <p>
+                e também eu gosto de jogar no pc
+            </p>
+        </div>
+        
+        <div>
+            <h3>
+                Lista Não Numerada
+            </h3>
 
-        <h3>
-            Lista Não Numerada
-        </h3>
+            <ul> <!-- Lista não numerada -->
+                <li>Frontend</li>
+                <li>Backend</li>
+                <li>Mobile</li>
+                <li>Low Level</li>
+                <li>GameDev</li>
+            </ul>
 
-        <ul> <!-- Lista não numerada -->
-            <li>Frontend</li>
-            <li>Backend</li>
-            <li>Mobile</li>
-            <li>Low Level</li>
-            <li>GameDev</li>
-        </ul>
+            <h3>List Numerada</h3>
 
-        <h3>List Numerada</h3>
+            <ol> <!-- Lista numerada -->
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>Java</li>
+                <li>C#</li>
+                <li>Rust</li>
+            </ol>
+        </div>
 
-        <ol> <!-- Lista numerada -->
-            <li>Python</li>
-            <li>Javascript</li>
-            <li>Java</li>
-            <li>C#</li>
-            <li>Rust</li>
-        </ol>
         <img src="Screen-Shot-2014-01-10-at-00.webp" alt="Teste de imagem" />
+        <a href="https://github.com/joaovtk">Meu Github</a>
+
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Bairro</th>
+                <tr>Idade</tr>
+            </tr>
+            <tr>
+                <td>Matheus</td>
+                <td>Savassi</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>Sion</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Adalberto</td>
+                <td>Afalville</td>
+                <td>28</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th colspan="2">Endereço</th>
+                <th>Idade</th>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>Sion</td>
+                <td>Av.Python</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Matheus</td>
+                <td>Savassi</td>
+                <td>Rua Java</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Aldaberto</td>
+                <td>Alf</td>
+                <td>Beco JS</td>
+                <td>28</td>
+            </tr>
+        </table>
     </body>
 </html>
