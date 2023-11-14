@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>Meu Primeiro CSS</title>
+    </head>
+    <body>
+        <style>
+            h1 {
+                color: #f00;
+                /* font-size: smaller;*/
+                font-size: 15pt;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+
+            p {
+                color: #fff;
+                font-family: monospace;
+                background-color: #000;
+                font-size: 15pt;
+                /* O codigo abaixo não faz parte da aula */
+                width: 50%;
+                padding: 15px;
+                border-radius: 15px;
+                box-shadow: 2px 2px 2px #0000004d;   
+            }
+
+            #graus {
+                color: #0f0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .cidade {
+                font-weight: bolder;
+                color: #ffff00;
+            }
+            #porem {
+                color: #00f;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 25pt;                
+            }
+
+            img {
+                border-radius: 15px;
+                margin-left: 300px;
+            }
+            #sun {
+                border: 5px solid orange;
+            }
+            #jabuticaba {
+                border: 5px solid purple;
+                width: 120px;
+                margin-left: 15px;
+            }
+        </style>
+        <h1>Calor</h1>
+        <p><span class="cidade">Belo Horizonte</span> está muito quente
+            <br/>
+            Tão quente quanto <span class="cidade">Teresina</span>...
+        </p>
+        <h1 id="graus">Está fazendo mais de 36° graus</h1>
+        <p>E graças adeus vai chover bem depois<br/>porém é pouca chuva...</p>
+        <h1 id="porem">Mas em sabará</h1>
+        <p>Em <span class="cidade">sabará</span> ocorre o festival da jabuticaba</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCY85nGobw0mfu0H2g7NPrQKKnlQoMXxQaHbqcTys&s" alt="Imagem de sol" id="sun" />
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-jabuticaba-1624160-1375302.png" alt="Imagem de jabuticaba" id="jabuticaba" />
+    </body>
+</html>
