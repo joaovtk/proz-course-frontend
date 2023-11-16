@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css">
+        <title>Fale conosco</title>
+    </head>
+    <body>
+        <h1>Fale Conosco</h1>
+        <p>Estamos disponiveis 24h</p>
+        <form method="get">
+            <label for="nome">Nome <span class="required">*</span></label><br>
+            <input type="text" name="nome" required />
+            <input type="text" name="sobrenome" required /><br>
+            <label class="other tip">Nome</label>
+            <label class="align tip">Sobrenome</label>
+
+            <br/><br/>
+
+            <label for="email">E-Mail <span class="required">*</span></label><br>
+            <input type="email" name="email" required /><br>
+            <label class="other tip">exemplo@exemplo.com</label>
+
+            <br/><br/>
+            <label for="message">Mensagem <span class="required">*</span></label><br/>
+            <textarea name="message" cols="30" rows="10" required placeholder="Digite aqui"></textarea><br/>
+            <input type="submit" value="Enviar" id="send" />
+        </form>
+    </body>
+</html>

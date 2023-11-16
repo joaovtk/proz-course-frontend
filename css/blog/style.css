@@ -5,48 +5,31 @@ body {
     background-color: #FFFFAA;
 }
 
-li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-h1 {
-    background-image: linear-gradient(#8AA236, #AA9139);
+#why {
+    background-color: #fff;
     padding: 15px;
     border-radius: 25px;
-    color: #fff;
-    display: block;
-    margin: auto;
-    text-align: center;
+    width: 500px;   
+    position: relative;
+    left: 60%;
 }
 
-article, footer {
-    background-image: linear-gradient(#8AA236, #AA9139);
-    padding: 20px;
-    border-radius: 30px;
-    margin-top: 10px;
-    color: #fff;
+#why img {
+    width: 500px;
 }
 
-footer {
-    text-align: center;
-    font-size: 25pt;
+#comunidade {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 25px;
+    width: 500px;   
+    height: 920px;
+    position: relative;
+    bottom: 950px;
+    left: 5%;
 }
 
-
-img {
-    border-radius: 20px;
-    width: 250px;
+#comunidade img {
+    width: 450px;
+    height: 450px;
 }
-
-abbr {
-    color: #fff;
-    text-decoration: none;
-}
-
-
-

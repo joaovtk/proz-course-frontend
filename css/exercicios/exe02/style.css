@@ -1,0 +1,14 @@
+h1 {
+    background-color: #cecece;
+    padding: 15px;
+}
+
+header {
+    display: block;
+    margin: auto;
+    width: 700px;
+}
+
+li {
+    display: block;
+}

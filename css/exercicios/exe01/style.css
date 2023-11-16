@@ -1,0 +1,59 @@
+body {
+    background-color: #cecece;
+}
+h1, p {
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 25px;
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+input {
+    width: 250px;   
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #cecece;
+}
+
+textarea {
+    border-radius: 15px;
+    width: 600px;
+}
+
+label {
+    font-size: 15pt;
+}
+
+.required {
+    color: #f00;
+}
+
+.align {
+    padding-left: 230px;
+}
+
+.tip {
+    color: #706e6e;
+    font-size: 10pt;
+}
+.other {
+    padding-left: 10px;
+}
+
+#send {
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(15, 184, 15);
+    color: #fff;
+    font-size: 15pt;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
