@@ -5,7 +5,9 @@ Aulas do curso da proz sobre frontend
 - [x] Readme do perfil criado
 - [x] Forms com HTML
 - [x] Atividades de forms 
-- [x] Aulas de CSS basico
+- [x] Aulas de CSS basico 
 - [x] Box Model(modelo de caixa)
+- [x] Pratica de box model e blog
+- [ ] Responsividade
 - [ ] Aulas de Javascript
 - [ ] Cookies e librarys
