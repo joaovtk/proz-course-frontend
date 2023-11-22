@@ -8,6 +8,6 @@ Aulas do curso da proz sobre frontend
 - [x] Aulas de CSS basico 
 - [x] Box Model(modelo de caixa)
 - [x] Pratica de box model e blog
-- [ ] Responsividade
+- [x] Responsividade e grid
 - [ ] Aulas de Javascript
 - [ ] Cookies e librarys
