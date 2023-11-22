@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.menu {
+    background-color: rgb(106, 106, 182);
+    border: 1px solid #000;
+    font-size:  10pt;
+    color: #fff;
+    padding: 15px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+.columnMenu {
+    display: grid;
+    grid-template-columns: 15vw;
+}
