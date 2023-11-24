@@ -11,5 +11,5 @@ Aulas do curso da proz sobre frontend
 - [x] Box Model(modelo de caixa)
 - [x] Pratica de box model e blog
 - [x] Responsividade e grid
-- [ ] Aulas de Javascript
+- [x] Aulas de Javascript
 - [ ] Cookies e librarys
