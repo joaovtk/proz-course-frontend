@@ -3,6 +3,7 @@
     let helloButton = document.getElementById("hello");
     let input = document.getElementById("nome");
 
+    // Pegando texto do formulario
     helloButton.addEventListener("click", () => {
         let nome = input.value;
         if(nome){
@@ -11,7 +12,4 @@
             alert("Nome não informado");
         }
     });
-
-    // Pegando texto do formulario
-
 })();
