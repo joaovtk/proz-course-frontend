@@ -21,7 +21,6 @@ article {
 img {
   display: block;
   width: 10vw;
-  filter: grayscale(50%);
 }
 
 .btn {
@@ -42,13 +41,17 @@ label {
   font-size: 150pt;
   background-color: #8B8A8A;
   color: #fff;
-  text-align: center;
-  vertical-align: middle;
+  width: 25vw;
+  height: 41vh;
+}
+
+#add > img {
+  display: block;
+  margin: auto;
 }
 
 #logo {
   width: 50px;
-  filter: grayscale(80%);
 }
 
 p {
