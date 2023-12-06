@@ -1,4 +1,4 @@
-# proz-course-frontend
+# Aulas Feitas para o modulo de frontend de 2023/2024
 Aulas do curso da proz sobre frontend
 - [x] Aulas de HTML
 - [x] Atividades de HTML
