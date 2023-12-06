@@ -15,3 +15,4 @@ Aulas do curso da proz sobre frontend
 - [x] Cookies e librarys
 - [x] Projeto da CriptoStore(repositorio externo)
 - [x] Prova
+- [x] Aulas Finalizadas de Logica de Programação esse repositorio pode ou não receber atualizaçoes
