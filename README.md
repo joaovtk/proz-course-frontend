@@ -12,4 +12,5 @@ Aulas do curso da proz sobre frontend
 - [x] Pratica de box model e blog
 - [x] Responsividade e grid
 - [x] Aulas de Javascript
-- [ ] Cookies e librarys
+- [x] Cookies e librarys
+- [x] Projeto da CriptoStore(repositorio externo)
